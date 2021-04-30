@@ -20,7 +20,7 @@ function CustomDrawerContent(props){
             <DrawerContentScrollView {...props}>
                 <DrawerItemList {...props} />
                 <DrawerItem 
-                    label="Close drawer"
+                    label="Close menu"
                     onPress={()=> props.navigation.closeDrawer()}
                 />
             </DrawerContentScrollView>

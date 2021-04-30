@@ -1,9 +1,12 @@
 import * as React from 'react';
 import { View, StyleSheet, Text, Button } from 'react-native';
 
-export default function Home(){
+import Header from '../Components/Header';
+
+export default function Home({ navigation }){
     return(
         <View style={styles.container}>
+            <Header navigation={ navigation }/>
             <View style={styles.content}>
                 <Text style={styles.text}> Home Page</Text>
             </View>
